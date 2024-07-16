@@ -1,0 +1,243 @@
+.registro_avatar-frame-child {
+    height: 85px;
+    width: 570px;
+    position: relative;
+    background-color: rgba(166, 195, 51, 0.65);
+    border: 3px solid #000;
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .registro_avatar-elige-tu-avatar,
+  .registro_avatar-empezemos-a-crear {
+    margin: 0;
+  }
+  .registro_avatar-empezemos-a-crear-container {
+    position: relative;
+    font-weight: 900;
+    z-index: 4;
+  }
+  .registro_avatar-elige-tu-avatar1,
+  .registro_avatar-empezemos-a-crear1 {
+    margin: 0;
+  }
+  .registro_avatar-empezemos-a-crear-container1 {
+    position: relative;
+    font-weight: 900;
+    z-index: 5;
+  }
+  .registro_avatar-empezemos-a-crear-esa-cuenta-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 2px;
+    margin-top: -72px;
+    color: rgba(166, 195, 51, 0.65);
+  }
+  .registro_avatar-empezemos-a-crear-esa-cuenta-parent,
+  .registro_avatar-rectangle-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .registro_avatar-rectangle-parent {
+    position: absolute;
+    top: 81px;
+    left: 378px;
+    background-color: rgba(166, 195, 51, 0.65);
+    border: 3px solid #000;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 2px 37px 3px 39px;
+    z-index: 3;
+  }
+  .registro_avatar-logo-tienda-de-frutas-y-verdur {
+    position: absolute;
+    top: 561px;
+    left: -4px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .registro_avatar-marco-child,
+  .registro_avatar-men {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .registro_avatar-marco-child {
+    top: 0;
+    left: 0;
+    border: 2px solid #000;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .registro_avatar-men {
+    top: 361px;
+    left: 351px;
+    background-color: #a0cb3a;
+    border: 4px solid #83b441;
+    width: 150px;
+    height: 30px;
+    z-index: 1;
+  }
+  .registro_avatar-frame-item,
+  .registro_avatar-marco,
+  .registro_avatar-men-parent,
+  .registro_avatar-women {
+    position: absolute;
+    border: 15px solid #a0cb3a;
+    box-sizing: border-box;
+  }
+  .registro_avatar-frame-item {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .registro_avatar-marco,
+  .registro_avatar-men-parent,
+  .registro_avatar-women {
+    top: 23px;
+    left: 24px;
+    width: 1277px;
+    height: 752px;
+    z-index: 2;
+  }
+  .registro_avatar-marco,
+  .registro_avatar-women {
+    top: 0;
+    left: -1px;
+    border: 20px solid #83b441;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .registro_avatar-women {
+    left: 0;
+    border-radius: 50%;
+    background-color: #a6c333;
+    border: 0 solid #000;
+    z-index: 3;
+  }
+  .registro_avatar-pato-de-goma-1-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    z-index: 4;
+  }
+  .registro_avatar-avatar-options,
+  .registro_avatar-nav-rect {
+    position: absolute;
+    top: 288px;
+    left: 976px;
+    width: 250px;
+    height: 250px;
+  }
+  .registro_avatar-nav-rect {
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #a6c333;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+  .registro_avatar-mujer-1-icon {
+    position: absolute;
+    top: 34px;
+    left: 25px;
+    border-radius: 89px;
+    width: 200px;
+    height: 212px;
+    object-fit: cover;
+    z-index: 4;
+  }
+  .registro_avatar-avatar-options1,
+  .registro_avatar-kids {
+    position: absolute;
+    top: 288px;
+    left: 537px;
+    width: 250px;
+    height: 250px;
+  }
+  .registro_avatar-kids {
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #a6c333;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+  .registro_avatar-sombrero-1-icon {
+    position: absolute;
+    top: 25px;
+    left: 19px;
+    width: 212.1px;
+    height: 200px;
+    object-fit: cover;
+    z-index: 4;
+  }
+  .registro_avatar-avatar-options2,
+  .registro_avatar-pehnava {
+    position: absolute;
+    top: 288px;
+    left: 112px;
+    width: 250px;
+    height: 250px;
+  }
+  .registro_avatar-pehnava {
+    top: 384px;
+    left: 807px;
+    background-color: #a0cb3a;
+    border: 4px solid #83b441;
+    box-sizing: border-box;
+    width: 150px;
+    height: 30px;
+    z-index: 3;
+  }
+  .registro_avatar-avatar-selection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .registro_avatar-registro-avatar {
+    width: 100%;
+    height: 799px;
+    background-color: #fff;
+    overflow: hidden;
+    line-height: normal;
+    letter-spacing: normal;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: Inter;
+  }
+  @media screen and (max-width: 767px) {
+    .registro_avatar-empezemos-a-crear-container,
+    .registro_avatar-empezemos-a-crear-container1 {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .registro_avatar-empezemos-a-crear-container,
+    .registro_avatar-empezemos-a-crear-container1 {
+      font-size: 18px;
+    }
+  }
+  

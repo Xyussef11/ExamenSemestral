@@ -1,0 +1,350 @@
+.frame-child {
+    top: 0;
+  }
+  .frame-child,
+  .frame-inner,
+  .frame-item {
+    position: absolute;
+    left: 0;
+    border-radius: 7.5px;
+    background-color: #470;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    width: 59px;
+    height: 16.3px;
+  }
+  .frame-item {
+    top: 16.3px;
+    z-index: 1;
+  }
+  .frame-inner {
+    top: 32.7px;
+  }
+  .rectangle-parent {
+    align-self: stretch;
+    height: 49px;
+    position: relative;
+  }
+  .frame-wrapper {
+    width: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 41px 10px 0 0;
+    box-sizing: border-box;
+  }
+  .logo-tienda-de-frutas-y-verdur {
+    height: 137px;
+    width: 208px;
+    position: relative;
+    object-fit: cover;
+  }
+  .ellipse-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #83b441;
+    border: 0 solid #fff;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+  .pato-de-goma-1-icon {
+    position: absolute;
+    width: calc(100% - 20px);
+    top: 9.6px;
+    right: 9.6px;
+    left: 10.4px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 60px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .ellipse-parent {
+    height: 80px;
+    flex: 1;
+    position: relative;
+  }
+  .frame-container,
+  .group-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .group-div {
+    align-self: stretch;
+    flex-direction: row;
+  }
+  .frame-container {
+    width: 80px;
+    flex-direction: column;
+    padding: 26px 0 0;
+    box-sizing: border-box;
+  }
+  .buscar-inner,
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent {
+    flex: 1;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .buscar-inner {
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0 26px 0 36px;
+    box-sizing: border-box;
+  }
+  .navigation-content-child,
+  .rectangle-icon {
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .navigation-content-child {
+    height: 78px;
+    width: 1325px;
+    background-color: #6d4d0b;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+  }
+  .rectangle-icon {
+    height: 49px;
+    width: 429px;
+  }
+  .inicio-icon {
+    height: 22px;
+    width: 22px;
+    position: relative;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .rectangle-div,
+  .vector-parent {
+    background-color: rgba(197, 149, 50, 0.6);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .vector-parent {
+    cursor: pointer;
+    border: 0 solid #000;
+    padding: 14px 20px 13px 41px;
+    width: 429px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+  }
+  .rectangle-div {
+    height: 49px;
+    width: 461px;
+    position: relative;
+    border: 1px solid #000;
+    display: none;
+  }
+  .buscar-icon {
+    height: 23px;
+    width: 23px;
+    position: relative;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 10px 20px 12px;
+    background-color: rgba(197, 149, 50, 0.6);
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-child1 {
+    height: 49px;
+    width: 416px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .image-1-icon {
+    height: 23.3px;
+    width: 23.8px;
+    position: relative;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .notification-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #f8fc36;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+  .notification-count {
+    position: absolute;
+    top: 0.9px;
+    left: 0;
+    font-weight: 600;
+    display: inline-block;
+    width: 8px;
+    height: 7.9px;
+    mix-blend-mode: linear-burn;
+    min-width: 8px;
+    z-index: 5;
+  }
+  .notification-icon-parent {
+    height: 8.8px;
+    width: 8px;
+    position: relative;
+    margin-left: -4.8px;
+  }
+  .vector-group {
+    width: 416px;
+    background-color: rgba(197, 149, 50, 0.6);
+    border: 0 solid #000;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 13px 20px 12.7px 21px;
+    z-index: 2;
+    margin-left: -4px;
+  }
+  .frame-group,
+  .navigation-content,
+  .navigation-content-wrapper,
+  .vector-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-group {
+    flex: 1;
+    justify-content: center;
+    min-width: 567px;
+    row-gap: 20px;
+  }
+  .navigation-content,
+  .navigation-content-wrapper {
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .navigation-content {
+    flex: 1;
+    background-color: #6d4d0b;
+    border: 2px solid #fff;
+    flex-wrap: wrap;
+    padding: 11px 8px 12px 11px;
+    row-gap: 20px;
+  }
+  .navigation-content-wrapper {
+    align-self: stretch;
+    padding: 0 0 22px;
+    text-align: center;
+    font-size: 5.5px;
+    color: #fd2d00;
+    font-family: Inter;
+  }
+  .frame-child2 {
+    height: 50px;
+    width: 500px;
+    position: relative;
+    background-color: #c59532;
+    border: 5px solid #89651c;
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .buscar1 {
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 90px;
+    z-index: 1;
+  }
+  .rectangle-container {
+    width: 500px;
+    background-color: #c59532;
+    border: 5px solid #89651c;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px 10px 3px;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .buscar,
+  .buscar-child,
+  .rectangle-container {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .buscar-child {
+    width: 1290px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    max-width: 100%;
+  }
+  .buscar {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 7px 0 485px;
+    gap: 10px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    background-color: #000; /* Fondo negro */
+  }
+  
+  @media screen and (max-width: 725px) {
+    .vector-group {
+      margin-left: 0;
+    }
+    .frame-group {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .frame-group {
+      min-width: 100%;
+    }
+  }
+  .add-product-button {
+    background-color: gray;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+  }

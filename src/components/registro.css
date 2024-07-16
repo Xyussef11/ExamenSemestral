@@ -1,0 +1,125 @@
+.registro-marco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border: 20px solid #83b441;
+    box-sizing: border-box;
+    padding: 24px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    font-family: Inter;
+    background-color: #fafafa;
+    min-height: 100vh;
+    position: relative; /* Added for positioning the image */
+  }
+  
+  .registro-marco-child {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 20px solid #83b441;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+  
+  .registro-account-creation {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registro-credentials {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  
+  .registro-input-fields {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  
+  .registro-label {
+    position: relative;
+    font-size: 12px;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    min-width: 106px;
+  }
+  
+  .registro-input-boxes {
+    border: 1px solid #a6c333;
+    outline: 0;
+    background-color: #d9d9d9;
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 153px;
+    padding: 8px;
+  }
+  
+  .registro-confirmation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .registro-confirmation-action {
+    cursor: pointer;
+    border: 1px solid #a6c333;
+    padding: 9px 43px 10px 44px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    flex-direction: row;
+  }
+  
+  .registro-confirmation-action:hover {
+    background-color: #bfbfbf;
+    border: 1px solid #738f00;
+    box-sizing: border-box;
+  }
+  
+  .registro-confirmar {
+    position: relative;
+    font-size: 12px;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    min-width: 57px;
+  }
+  
+  .registro-logo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+  }
+  

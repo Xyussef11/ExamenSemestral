@@ -1,0 +1,265 @@
+.marco-child {
+    height: 799px;
+    width: 1325px;
+    position: relative;
+    border: 20px solid #83b441;
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .donation-banner-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 15px solid #a0cb3a;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .haz-click-aqu {
+    margin: 0;
+    font-size: 20px;
+    color: #fd2d00;
+  }
+  .dona-aqu-para,
+  .seguir-innovando,
+  .y {
+    margin: 0;
+  }
+  .haz-click-aqu-container {
+    position: relative;
+    z-index: 2;
+  }
+  .donation-message {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 7px 0 8px;
+  }
+  .donacion-xd-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a6c333;
+    border: 3px solid #000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .smart-farm-1-1 {
+    position: absolute;
+    top: 21px;
+    left: 20px;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .manda-tu-yappy {
+    position: absolute;
+    top: 28px;
+    left: 17px;
+    display: inline-block;
+    min-width: 61px;
+    z-index: 4;
+  }
+  .donacion-xd {
+    align-self: stretch;
+    height: 159.1px;
+    position: relative;
+    background-color: #a6c333;
+    border: 3px solid #000;
+    box-sizing: border-box;
+    z-index: 2;
+    font-size: 8px;
+  }
+  .donation-call-to-action {
+    position: absolute;
+    top: 462px;
+    left: 66px;
+    width: 164.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  .correo-electrnico {
+    position: relative;
+    font-size: 12px;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    min-width: 106px;
+    z-index: 2;
+  }
+  .input-boxes {
+    border: 1px solid #a6c333;
+    outline: 0;
+    background-color: #d9d9d9;
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 153px;
+    z-index: 2;
+  }
+  .input-fields {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 9px;
+    gap: 4px;
+  }
+  .contrasea {
+    position: relative;
+    font-size: 12px;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    min-width: 66px;
+    z-index: 2;
+  }
+  .input-fields-child {
+    border: 1px solid #a6c333;
+    outline: 0;
+    background-color: #d9d9d9;
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 153px;
+    z-index: 2;
+  }
+  .input-fields1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .crear-cuenta {
+    position: relative;
+    font-size: 12px;
+    font-family: Inter;
+    color: #d4b3ff;
+    text-align: center;
+    display: inline-block;
+    min-width: 74px;
+    z-index: 2;
+  }
+  .credentials {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .confirmation-action-child {
+    height: 38px;
+    width: 146px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #a6c333;
+    box-sizing: border-box;
+    display: none;
+  }
+  .confirmar {
+    position: relative;
+    font-size: 12px;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    min-width: 57px;
+    z-index: 3;
+  }
+  .confirmation-action {
+    cursor: pointer;
+    border: 1px solid #a6c333;
+    padding: 9px 43px 10px 44px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    flex-direction: row;
+    z-index: 2;
+  }
+  .confirmation-action:hover {
+    background-color: #bfbfbf;
+    border: 1px solid #738f00;
+    box-sizing: border-box;
+  }
+  .account-creation,
+  .confirmation,
+  .confirmation-action {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .confirmation {
+    flex-direction: row;
+    padding: 0 55px 0 54px;
+  }
+  .account-creation {
+    margin: 0;
+    position: absolute;
+    top: 373px;
+    left: 511px;
+    width: 255px;
+    flex-direction: column;
+    gap: 57px;
+  }
+  .logo-conservas-del-patio-1 {
+    position: absolute;
+    top: 42px;
+    left: 407px;
+    width: 462px;
+    height: 291px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .donation-banner {
+    height: 752px;
+    flex: 1;
+    position: relative;
+    border: 15px solid #a0cb3a;
+    box-sizing: border-box;
+    max-width: 104%;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .inicio-de-sesin,
+  .marco {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .marco {
+    flex: 1;
+    border: 20px solid #83b441;
+    box-sizing: border-box;
+    padding: 2px 24px 3px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    font-family: Inter;
+  }
+  .inicio-de-sesin {
+    width: 100%;
+    background-color: #fafafa;
+    overflow: hidden;
+    line-height: normal;
+    letter-spacing: normal;
+    cursor: pointer;
+  }
